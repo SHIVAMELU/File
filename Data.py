@@ -41,7 +41,7 @@ class Data:
         ],
     ]
 
-    """
+    ABOUT = """
 <b>About this Bot:
 
 @{} is a Telegram Bot for storing posts or files that can be accessed via a special link..
