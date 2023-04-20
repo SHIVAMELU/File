@@ -21,7 +21,7 @@ class Data:
  ├ /users - To view bot user statistics
  ├ /batch - To link more than one file
  ├ /speedtest - To Test the bot server speed
- └ /broadcast - To send broadcast messages to bot users
+ └ /broadcast - To send broadcast messages to bot users """
 
     close = [
         [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
@@ -41,9 +41,10 @@ class Data:
         ],
     ]
 
-    ABOUT = """
+    ABOUT = """  
+ 
 <b>About this Bot:
 
 @{} is a Telegram Bot for storing posts or files that can be accessed via a special link..
 
- • Creator: @{} """
+ • Creator: @{} </b>"""
